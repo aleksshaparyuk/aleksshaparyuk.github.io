@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Александр Шапарюк — Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Aleks Shaparyuk</a>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <button class="burger" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Привет, я Александр </h1>
+                <h2>Frontend Developer</h2>
+                <p>Создаю адаптивные лендинги и сайты на HTML, CSS и JavaScript. Специализируюсь на небольших проектах с
+                    чётким ТЗ.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                    <a href="#contact" class="btn btn-secondary">Связаться</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я начинающий Frontend-разработчик из Туркменистана. Увлекаюсь созданием быстрых, адаптивных и
+                        интерактивных веб-сайтов.</p>
+                    <p>Совмещаю фриланс с основной работой, поэтому беру небольшие проекты с чётким ТЗ. Гарантирую
+                        соблюдение дедлайнов и качественную коммуникацию.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3</span>
+                            <span class="stat-label">Завершённых проекта</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Адаптивная вёрстка</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">На связи</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Мои проекты</h2>
+            <div class="projects-grid">
+                <!-- Проект 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">☕</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Coffee Time</h3>
+                        <p class="project-tech">HTML5 • CSS3 • JavaScript</p>
+                        <p>Интерактивный лендинг кофейни с корзиной, фильтрацией меню и адаптивной вёрсткой.</p>
+                        <div class="project-links">
+                            <a href="https://aleksshaparyuk.github.io/Coffee-Time-/" target="_blank" class="link">Живой
+                                сайт →</a>
+                            <a href="https://github.com/aleksshaparyuk/Coffee-Time-" target="_blank" class="link">GitHub
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">⚽</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>JS-Spartak</h3>
+                        <p class="project-tech">HTML5 • CSS3 • JavaScript</p>
+                        <p>Фан-сайт ФК Спартак с аудиоплеером, live-счётами и динамическим обновлением контента.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/aleksshaparyuk/js-spartak" target="_blank" class="link">GitHub
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Проект 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">🏆</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TurkmenSport</h3>
+                        <p class="project-tech">HTML5 • CSS3 • JavaScript</p>
+                        <p>Спортивный портал со статистикой, таблицами и расписанием матчей.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/aleksshaparyuk/turkmensport" target="_blank" class="link">GitHub
+                                →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Мои навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Flexbox</span>
+                        <span class="skill-tag">Grid</span>
+                        <span class="skill-tag">Адаптивная вёрстка</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Инструменты</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">GitHub Pages</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">VS Code</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Что я умею</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Лендинги</span>
+                        <span class="skill-tag">Сайты-визитки</span>
+                        <span class="skill-tag">Исправление багов</span>
+                        <span class="skill-tag">Интерактивные элементы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Связаться со мной</h2>
+            <div class="contact-content">
+                <p class="contact-text">Открыт к небольшим проектам и разовым задачам. Присылайте ТЗ — оценю сроки и
+                    стоимость!</p>
+                <div class="contact-links">
+                    <a href="https://t.me/aleksshaparyuk" target="_blank" class="contact-link">
+                        <span class="contact-icon">💬</span>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="mailto:aleksshaparyuk@gmail.com" class="contact-link">
+                        <span class="contact-icon">📧</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/aleksshaparyuk" target="_blank" class="contact-link">
+                        <span class="contact-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/aleks-shaparyuk-376b17439/" target="_blank" class="contact-link">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <div class="contact-info">
+                    <p>📍 Локация: Туркменистан (удалённо)</p>
+                    <p>🕐 Часовой пояс: GMT+5</p>
+                    <p>💳 Оплата: обсуждается (карта РФ, СБП, USDT)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Александр Шапарюк. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
